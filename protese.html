@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dentist Syle</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </head>
+    <style>
+        .navbar{
+            background: blueviolet;
+        }
+        body{
+            background: rgb(221, 203, 239);
+        }
+        h2{
+            color: blueviolet;
+        }
+        p{
+            text-align: justify;
+        }
+        #mais{
+           background: rgb(229, 189, 251); 
+        }
+        #card{
+            color: blueviolet;
+        }
+        h5{
+          color: blueviolet;
+        }
+        .accordion-collapse{
+            background-color: rgb(231, 209, 243);
+        }
+        .accordion-button{
+            background-color: rgb(174, 113, 231);
+            color: aliceblue;
+            font-weight: bold;
+        }
+        .altura{
+      height: 100px;
+        }
+        .navbar{
+      position: fixed;
+      width: 100%;
+      z-index: 1;
+        }
+    </style>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="#"></a>
+          <img src="Fotos/Logo.png" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#introducao">Introdução</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#sobre">Sobre</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="altura"></div>
+      <div class="container">
+        <div class="row mt-5">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="Fotos/Paginas.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="introducao" class="row mt-5">
+            <div class="col-lg-6 col-12">
+                <h2 class="text-center">Colocação de Protese</h2><br>
+                 <p>A perda dos dentes sempre é um motivo de desconforto e preocupação. Além de prejudicar a estética de seu sorriso, esse dano também pode dificultar a fala, a mastigação e a formação de toda a arcada dentária.É por isso que cerca de 39 milhões de brasileiros fazem uso das chamadas próteses dentárias, que podem resolver muitos problemas de forma definitiva. E tem mais: um em cada cinco brasileiros usam próteses móveis.A justificativa para esses números é simples: a prótese dentária se tornou mais acessível, confortável e simples com o avanço da odontologia. Apesar disso, o assunto ainda desperta muitas dúvidas.</p>
+            </div>
+            <div class="col-lg-6 col-12">
+                <img class="img-fluid" src="Fotos/prot.jpg">
+            </div>
+        </div>
+        <div id="sobre" class="row mt-5 mb-5">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <h6>O que é uma prótese dentária?</h6>
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                       <p>A prótese dentária é um dispositivo utilizado para substituir o(s) dente(s) perdido(s). Elas podem ser removíveis (encaixadas à boca), ou fixas (implantadas). A escolha depende do tipo de tratamento mais indicado para o caso. Elas podem ser confeccionadas com base em diversos tipos de materiais, como resina, porcelana e zircônia. Apesar de demandarem algum tempo para aplicação e adaptação, a aparência das próteses de hoje é muito semelhante à estética dos dentes naturais. Por isso, o seu uso passa a ser imperceptível para a maioria das pessoas, proporcionando mais conforto e qualidade de vida aos usuários.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <h6>Qual é o melhor tipo de prótese?</h6>
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p> São vários os tipos de prótese e cada uma é mais indicada para casos específicos. A protocolo, por exemplo, é uma prótese dentária ideal pra quem perdeu todos os dentes, enquantoa fixa é uma indicação pra quem perdeu um ou mais dentes. Assim, o melhor tipo vai depender de perfil, hábitos e características de cada paciente. Dessa forma, a escolha deve ser feita pelo paciente com a orientação do seu dentista. O profissional poderá avaliar as necessidades do seu paciente e indicar o tipo de prótese mais adequado e que atenda as suas expectativas.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <h6>Quando é indicado o uso de prótese dentária?</h6>
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>A prótese dentária é indicada para aqueles que perderam todos, um ou mais dentes naturais. Com isso em mente, diversas circunstâncias podem ocasionar essa perda e falamos desses motivos a seguir!<br></p>
+                            <h6>- Doenças periodontais</h6>
+                            <p>As doenças periodontais são aquelas que podem comprometer a fixação dos dentes, como gengivite e periodontite. Homens com mais de 35 anos correm maior risco de desenvolver esses tipos de problemas, porém, eles podem acometer qualquer pessoa. Para evitar uma doença periodontal, você terá que cuidar muito bem dos dentes e ter a sua higiene bucal acompanhada por um profissional ao longo da vida. As visitas ao dentista devem acontecer em todas as fases da vida, mas, quanto mais você envelhece, mais forte é a necessidade de se cuidar.</p>
+                            <h6>- Perda ou necessidade de restauração de dentes</h6>
+                            <p>Quedas, fraturas, pancadas e acidentes podem ocasionar a queda e quebra dos dentes de forma instantânea ou progressiva. Além disso, alguns fatores como idade avançada, desgaste dos dentes e maus hábitos de higiene diária também podem ajudar a acelerar esses danos. Por exemplo, quando você não faz nada para evitar e tratar as cáries.</p>
+                            <h6>- Dentes extraídos</h6>
+                            <p>Os maus hábitos de higiene bucal (como não escovar ou usar fio dental regularmente, fumar ou evitar as visitas ao dentista) costumam afrouxar as gengivas ou facilitar os danos aos dentes, justificando uma possível extração pelo seu dentista. Se você optar por comer itens muito açucarados e se recusar a escovar os dentes logo após, por exemplo, as bactérias podem corroer seus dentes. Isso não só causa cáries, como também deteriorar os dentes ao longo do tempo. Quando esses problemas não são tratados, é possível que o dente chegue em um ponto no qual não possa mais ser recuperado e tenha que ser extraído.</p>
+                            <h6>- Doenças autoimunes</h6>
+                            <p>Ainda que a sua higiene bucal seja boa, a incidência de algumas doenças autoimunes (como a síndrome de Sjögren, Lúpus e Doença de Crohn) podem favorecer a queda de dentes em adultos e crianças. Você sabe bem: é natural que as crianças percam os dentes de leite conforme crescem, mas existem outras razões mais sérias pelas quais os outros dentes podem se soltar e cair. Nos casos das doenças autoimunes, as células de defesa do próprio organismo impulsionam os processos que levam bactérias a causarem algumas doenças bucais, como a periodontite. A partir do momento em que se chega na idade adulta, a perda dos dentes é um caso um pouco mais sério, pois há uma chance muito maior de que uma doença ou distúrbio esteja danificando a saúde bucal e possa causar ainda mais problemas no futuro.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+</body>
+</html>
